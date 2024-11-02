@@ -1,0 +1,60 @@
+/* add your CSS here */
+
+/*setting padding and border around animal’s name, image, and information */
+.animalcardmain {
+    width: 316px;
+    height: 555px;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    margin: 50px 50px 50px 25px;
+    box-shadow:10px 10px 5px  lightgrey;
+    font-family: Times, "Times New Roman", serif;
+    background-color: #fffff9;
+    
+}
+
+/*setting padding and border around animal’s information */
+.animalcardinfo {
+    width: 290px;
+    border: 1px solid black;
+    padding: 5px 5px 5px 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    
+}
+
+/* text is italicized for the animal’s interesting fact */
+.animalcardfunfact {
+    font-style: italic;
+    font-weight: 600;
+
+}
+
+/* Dots are removed from the animal's list items */
+.animalcardlist {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Add italics and color */
+.importantinfo{
+    font-style: italic;
+    color:brown;
+}
+
+/* Image width set to 300px and rounded corners */
+img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+
+/* labels are bolded for the animal’s list items */
+li span{
+    font-weight: bold;
+}
+
